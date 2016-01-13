@@ -1,0 +1,144 @@
+/* Top navigation bar links to the right */
+.navbar{
+	display: block;
+	height: 32px;
+	padding-top: 10px;
+}
+/* Navigation bar links */
+.links {
+	display: inline-block;
+	float: right;
+	padding-left: 15px;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #000;
+	height: 24px;
+	-webkit-align-items: center;
+}
+.links2 {
+	display: inline-block;
+	float: right;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #000;
+	vertical-align: middle;
+	height: 24px;
+	width: 24px;
+	padding-left: 15px;
+}
+/* Photo */
+.photo {
+	padding-right: 40px;
+}
+/* Large central Google logo */
+.google {
+	display: block;
+	text-align: center;
+	padding-top: 145px;
+	padding-bottom: 30px;
+}
+/* Search box below Google logo */
+.search-box {
+	display: block;
+	text-align: center;
+}
+.search-inner-box {
+	display: inline-block;
+	width: 584px;
+	height: 38px;
+	border: 1px solid #d9d9d9;
+}
+/* Search Box format */
+.search-form {
+	display: block;
+	width: 525px;
+	height: 36px;
+	float: left;
+	padding-left: 10px;
+	outline: none;
+
+	text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    border: none;
+    font: 16px arial,sans-serif;
+	line-height: 26px;
+}
+/* Google Voice */
+.mic {
+	display: inline-block;
+	float: right;
+	width: 15px;
+	padding-top: 8px;
+	padding-right: 8px;
+}
+/* Search buttons below the Google logo */
+.search-buttons {
+	display: block;
+	text-align: center;
+	padding-top: 18px;
+}
+/* Google Search and I'm Feeling Lucky button style */
+.btn1 {
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    width: 126px;
+    height: 36px;
+    padding: 0 16px;
+}
+/* Google Search and I'm Feeling Lucky button style */
+.btn2 {
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    width: 143px;
+    height: 36px;
+    padding: 0 16px;
+}
+/* Bottom Footer Navigation Bar */
+.footer {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    height: 40px;
+    width: 100%
+}
+/* Links on left within footer navigation bar */
+.ftrl {
+	display: inline-block;
+	float: left;
+	padding-left: 27px;
+	padding-top: 13px;
+
+	font-family: arial,sans-serif;
+	font-size: small;
+}
+/* Links on right within footer navigation bar */
+.ftrr {
+	display: inline-block;
+	float: right;
+	padding-right: 27px;
+	padding-top: 14px;
+
+	font-family: arial,sans-serif;
+	font-size: small;
+}
